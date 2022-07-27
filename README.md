@@ -1,1 +1,13 @@
-# create-ssh-for-windows
+# Generate SSH key for windows
+
+
+## Generating a new SSH key
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+
+## Testing your SSH connection
+```
+ssh -T git@github.com
+```
